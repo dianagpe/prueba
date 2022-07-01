@@ -2,7 +2,7 @@
 header{
     /* TODO: add a background image pointing to img/what-the-hex-dark.png */
     background-image: "img/what-the-hex-dark.png";
-    border: 1px solid black;
+    border: 2px solid black;
 }
 h1{
     /* TODO: add a font family of Niconne and cursive with a size of 5em and a color of goldenrod with an underline */
