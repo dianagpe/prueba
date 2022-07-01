@@ -1,0 +1,121 @@
+/*main title*/
+header{
+    /* TODO: add a background image pointing to img/what-the-hex-dark.png */
+    background-image: "img/what-the-hex-dark.png";
+    border: 1px solid black;
+}
+h1{
+    /* TODO: add a font family of Niconne and cursive with a size of 5em and a color of goldenrod with an underline */
+    /* TODO: center the text using text-align */
+    margin-top: 15px;
+}
+/*highlight text*/
+header aside{
+    /* TODO: add a width of 70% */
+    /* TODO: add a margin of 20px for the top and bottom and horizontal centering*/
+    /* TODO: make the font color goldenrod */
+    padding-top: 10px;
+}
+/* TODO: the rule below needs to target the first p tag inside the aside using p:nth-child(1) */
+/*{
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    line-height: 2.1em;
+}*/
+/* TODO: the rule below needs to target the second p tag inside the aside using p:nth-child(2) */
+/*{
+    font-family: 'Rokkitt', serif;
+    font-size: 1.5em;
+}*/
+
+/* main content */
+main{
+    /* TODO: set the display to flex */
+}
+
+/* TODO: target the p tag that is the child of the first div in main using :first-child on the div */
+/*{
+    font-size: 1.7em;
+    font-family: 'Rokkitt', serif;
+    margin-bottom: 10px;
+}*/
+
+/* TODO: target the aside inside of the first div inside the main.  Use :first-child on the div */
+/*{
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    padding: 5px;
+    font-weight: bolder;
+}*/
+
+main #left{
+    /* TODO: give a flex value of 1 */
+    /* TODO: make the background image point to url(img/vintage-concrete.png) */
+}
+#left p{
+    width: 90%;
+    line-height: 1.7em;
+    margin: 0 auto;
+}
+#left aside{
+    /* TODO: set the display to block */
+    /* TODO: set the background color to goldenrod */
+}
+main #right{
+    /* TODO: give a flex value of 2 */
+    /* TODO: make the background image point to img/topography.png */
+}
+#right ol{
+    /* TODO: set the list-style to decimal */
+}
+
+main h2{
+    /* TODO: set the font family to 'Niconne', cursive at a size of 2.3em */
+    /* TODO: center the text with text-align */
+    margin-bottom: 15px;
+    /* TODO: make the background color goldenrod */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*mixing instructions*/
+#right ol{
+    /* TODO: make the width of the ol 85% and use margin values of 0 and auto to center the text */
+}
+#right ol li{
+    font-size: 1.7em;
+    line-height: 1.7em;
+    margin-bottom: 5px;
+    /* TODO: set the font-family to 'Rokkitt', serif */
+}
+
+/* TODO: target the even li tags inside of #right with the rule below */
+/*{
+    color:#795b01;    
+}*/
+
+/* TODO: target the odd li tags inside of #right with the rule below */
+/*{
+    color:#533f01;
+}*/
+
+/* notes */
+#notes{
+    color:#795b01;
+    /* TODO: make the font family 'Rokkitt', serif at a font size of 1em and centered with text-align */
+}
+
+/*footer*/
+footer{
+    /* TODO: add a backgrond image pointing to img/what-the-hex-dark.png */
+    padding: 5px 0 5px 2px;
+}
+footer a{
+    /* TODO: get rid of the text decoration by setting it to none */
+    /* TODO: make the text color goldenrod */
+    /* TODO: make the font family 'Rokkitt', serif */
+}
+/* TODO: make the rule below active when somone hovers over the link in the footer */
+/*{
+    text-decoration: underline;
+}*/
