@@ -1,7 +1,7 @@
 /*main title*/
 header{
     /* TODO: add a background image pointing to img/what-the-hex-dark.png */
-    background-image: "img/what-the-hex-dark.png";
+    background-image: url("img/what-the-hex-dark.png");
     border: 2px solid black;
 }
 h1{
